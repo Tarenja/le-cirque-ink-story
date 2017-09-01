@@ -1,24 +1,27 @@
 body {
-    font-family: sans-serif;
-    font-weight: lighter;
+    font-family: 'Playfair Display', serif;
+    background-image: url('includes/img/63254545-circus-wallpapers.jpg');
+    background-size: 100%;
 }
 
 h1 {
     text-align: center;
-    font-weight: lighter;
+    color: rgb(99, 16, 6);
+    border-bottom: 5px dotted rgb(99, 16, 6);
 }
 
 .container {
     display: block;
-    max-width: 600px;
+    max-width: 700px;
     margin: 0 auto;
     padding: 20px;
+    background-color: rgba(0, 0, 0,0.5);
 }
 
 p, a {
-    color: gray;
+    color: grey;
     line-height: 1.7em;
-    font-size: 13pt;
+    font-size: 15pt;
 }
 
 p {
@@ -35,5 +38,5 @@ p.choice {
 }
 
 a:hover {
-    color: black;
+    color: rgb(99, 16, 6);
 }
