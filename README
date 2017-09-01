@@ -1,0 +1,24 @@
+Technical Specifications:
+- What data will you need to store? How will it be organized? Describe each table, its columns, and its relationships with other tables.
+  - I will need to store the app somewhere, if I want to publish it: on the hosting site.
+  - I will need a users table with the columns: Username, Email, Password.
+  - I might be able to store the story results in the database so users can see the endings they have reached.
+    But I'm not sure if that is possible using Ink. If so, I will need a table with the stories, title, description (how their game went)
+
+- What does your product look like? List each view, their purpose, and how they work
+  - It will be an interactive app like Sorcery! 1, 2 or 3. It will have a homepage with an intro to the game and login, and then a link
+  to the page where they will be able to read the story once they are logged in.
+
+- Describe any complex business logic that is happening in your application. For example, how does data flow through your application
+  - Well my application will not be a web app exactly, though I will have a website for users to login. It will be a game with
+    branching options and different endings, making a choose-your-own-adventure style game.
+
+Have a timeline of milestones to reach, including deadlines:
+- Create milestones that represent the discrete blocks of functionality:
+- Give an estimate for how long each will take per engineer:
+- Come up with a timeline of goals to stick to:
+  - Decide on what story I want to tell, and write out different endings and paths for it, including the 'ideal' happy ending (sun 27 aug) (24 hours)
+  - Figure out how to use Ink and Inky (or possibly Inklewriter, which is simpler, if I can't figure it out) (fri 25 aug) (48 hours)
+  - Build the website that will contain the game (or game download link) and lets users login and hypes up the game (wed 30 aug) (24 hours)
+  - Take into account that everything might take longer than the time I have estimated, so making sure to keep some time available for unforeseen delays.
+
